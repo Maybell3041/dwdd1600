@@ -1,5 +1,5 @@
 body {
-      font-family: "Baloo Paaji 2", sans-serif;
+    font-family: "Baloo Paaji 2", sans-serif;
     margin: 0;
 }
 
@@ -44,30 +44,31 @@ nav li.active a {
 }
 
 nav li a:hover {
-    color:#9cbaba;
+    color: #9cbaba;
 }
 
 /*mainstuff here*/
 main {
     padding: 1rem 10px;
     margin: 40px;
-  font-style: normal;
-    background-color:#fff8db;
+    font-style: normal;
+    background-color: #fff8db;
     padding: .5rem;
-    border: 1px
+    border: 1px;
+    max-width: auto;
 
 }
 
 main h1 {
     color: #2f5106;
     text-align: center;
-    
+
 }
 
 main h2 {
     color: #024873;
     margin-bottom: .2rem;
-     text-align: center;
+    text-align: center;
 }
 
 main p {
@@ -82,10 +83,10 @@ main ol {
     background-color: #a5c584;
     padding: .5rem;
     border-radius: 10px;
-    max-width:400px;
+    max-width: 400px;
     list-style-position: inside;
     margin: auto;
-     }
+}
 
 main dl dt {
     color: #2f5106;
@@ -103,11 +104,11 @@ main dl dd {
 
 main ul {
     list-style-type: circle;
-     padding: .5rem 30px;
+    padding: .5rem 30px;
     background-color: #a5c584;
     padding: .5rem;
     border-radius: 10px;
-    max-width:400px;
+    max-width: 400px;
     list-style-position: inside;
     margin: auto;
 }
@@ -149,7 +150,7 @@ main a:hover {
 
 /*footer stuff here*/
 footer {
-    background-color:#2f5106;
+    background-color: #2f5106;
     text-align: center;
     padding: 1rem 0;
 
