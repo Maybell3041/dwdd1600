@@ -19,14 +19,15 @@ header span {
 /*Nav stuff here*/
 nav {
     background-color: #f6c915;
-
+ 
 }
 
 nav ul {
     margin: 0;
-    padding: 0 10px;
+    padding: 0 48px;
     list-style-type: none;
     display: flex;
+    
 }
 
 nav a {
@@ -36,6 +37,7 @@ nav a {
     font-size: 1.1rem;
     color: #385c5c;
     font-weight: 800;
+    
 }
 
 nav li.active a {
