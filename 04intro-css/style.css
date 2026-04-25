@@ -40,7 +40,7 @@ nav a {
     
 }
 
-nav li.active a {
+nav li.current a {
     background-color: #2f5106;
     color: #f6c915;
 }
