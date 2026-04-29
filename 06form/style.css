@@ -77,6 +77,7 @@ main p {
     color: #333;
 
 
+
 }
 
 main ol {
@@ -186,6 +187,7 @@ figure.noods figcaption {
     color: #024873
 }
 
+
 /*gallery stuff here*/
 div.gallery {
 
@@ -211,42 +213,44 @@ div.gallery img {
 }
 
 
+/*form info here*/
 
-
-.myform {
+.form {
     border: 1px solid #2f5106;
     border-radius: 3px;
     margin-bottom: 1rem;
 }
 
-.myform legend {
+.form legend {
     color:
         #2f5106;
     font-size: .8rem;
 
 }
 
-.myform label {
+.form label {
     margin: .5rem;
 }
 
-.myform label,
-.myform select,
-.myform [type=text],
-.myform [type=tel],
-.myform [type=email],
-.myform textarea,
-.myform input {
+.form label,
+.form select,
+.form [type=text],
+.form [type=tel],
+.form [type=email],
+.form textarea,
+.form input {
     display: block;
 }
-.myform input {
+
+.form input {
     display: inline;
 }
-.myform [type=text],
-.myform [type=tel],
-.myform [type=email],
-.myform select,
-.myform textarea {
+
+.form [type=text],
+.form [type=tel],
+.form [type=email],
+.form select,
+.form textarea {
     border: solid 1px #024873;
     padding: .3rem;
     width: 250px;
@@ -255,17 +259,17 @@ div.gallery img {
     font-weight: 200;
 }
 
-.myform textarea {
+.form textarea {
     height: 6rem;
 
 }
 
-.myform :required {
-    background-color: rgba(156, 51, 53, 0.1);
+.form :required {
+    background-color: #f6c91550;
 }
 
-.myform [type=submit] {
-    background-color:#2f5106;
+.form [type=submit] {
+    background-color: #2f5106;
     border: none;
     padding: 1rem 2rem;
     border-radius: 10px;
