@@ -229,15 +229,20 @@ div.gallery img {
 .myform label {
     margin: .5rem;
 }
-
-.myform label,
 .myform select,
+.myform label,
+.myform input,
 .myform [type=text],
 .myform [type=tel],
 .myform [type=email],
-.myform textarea,
-.myform input {
+.myform textarea
+ {
     display: block;
+}
+ 
+ .myform input {
+    display: inline-block;
+
 }
 
 .myform [type=text],
