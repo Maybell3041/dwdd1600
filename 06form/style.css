@@ -1,0 +1,290 @@
+body {
+    font-family: "Baloo Paaji 2", sans-serif;
+    margin: 0;
+}
+
+/*headerstuff here*/
+header {
+    background-color: #2f5106;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #fff8db;
+    font-size: 1.6rem;
+    font-weight: 800;
+
+}
+
+/*Nav stuff here*/
+nav {
+    background-color: #f6c915;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 48px;
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #385c5c;
+    font-weight: 800;
+
+}
+
+nav li.current a {
+    background-color: #2f5106;
+    color: #f6c915;
+}
+
+nav li a:hover {
+    color: #9cbaba;
+}
+
+/*mainstuff here*/
+main {
+    padding: 1rem 10px;
+    margin: 40px;
+    font-style: normal;
+    background-color: #fff8db;
+    padding: .5rem;
+    border: 1px;
+
+}
+
+main h1 {
+    color: #2f5106;
+    text-align: center;
+
+}
+
+main h2 {
+    color: #024873;
+    margin-bottom: .2rem;
+    text-align: center;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+
+
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #a5c584;
+    padding: .5rem;
+    border-radius: 10px;
+    max-width: 400px;
+    list-style-position: inside;
+    margin: auto;
+}
+
+main dl dt {
+    color: #2f5106;
+    font-weight: 800;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+main dl dd {
+    color: #385c5c;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+    padding: .5rem 30px;
+    background-color: #a5c584;
+    padding: .5rem;
+    border-radius: 10px;
+    max-width: 400px;
+    list-style-position: inside;
+    margin: auto;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 800;
+    color: #000;
+}
+
+main em {
+    font-weight: 400;
+}
+
+main address {
+    font-style: normal;
+    background-color: #9cbaba;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 3px solid #2f5106;
+    max-width: 200px;
+    min-height: 150px;
+    margin: auto;
+
+}
+
+main a {
+    color: #024873;
+}
+
+main a:hover {
+    color: #607b47;
+}
+
+/*main image stuff here*/
+figure.fancy {
+    margin: 0 20px 0 20px;
+    width: 20%;
+    float: left;
+
+
+}
+
+figure.fancy img {
+    width: 100%;
+    height: auto;
+}
+
+figure.fancy figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color: #024873;
+}
+
+figure.noods {
+    margin: 0 20px 0 20px;
+    width: 20%;
+    float: right;
+}
+
+figure.noods img {
+    width: 100%;
+    height: auto;
+}
+
+figure.noods figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color: #024873
+}
+
+/*gallery stuff here*/
+div.gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+div.gallery figure {
+    margin: 0 10px 0 30px;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: 1rem;
+    color: #024873;
+
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.myform {
+    border: 1px solid #2f5106;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myform legend {
+    color:
+        #2f5106;
+    font-size: .8rem;
+
+}
+
+.myform label {
+    margin: .5rem;
+}
+
+.myform label,
+.myform select,
+.myform [type=text],
+.myform [type=tel],
+.myform [type=email],
+.myform textarea,
+.myform input {
+    display: block;
+}
+
+.myform [type=text],
+.myform [type=tel],
+.myform [type=email],
+.myform select,
+.myform textarea {
+    border: solid 1px #024873;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-weight: 200;
+}
+
+.myform textarea {
+    height: 6rem;
+
+}
+
+.myform :required {
+    background-color: rgba(156, 51, 53, 0.1);
+}
+
+.myform [type=submit] {
+    background-color:#2f5106;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 1rem 1vw;
+}
+
+
+
+
+/*footer stuff here*/
+footer {
+    background-color: #2f5106;
+    text-align: center;
+    padding: 1rem 0;
+    clear: both;
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #fff8db;
+    letter-spacing: 3px;
+}
