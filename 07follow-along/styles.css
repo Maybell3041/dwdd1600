@@ -52,7 +52,7 @@ header p {
     nav .active a{
         background-color: #8C501B;
         color: white;
-        background-image: linear-gradient(to bottom #8b5022, #663b19 );
+        background-image: linear-gradient(to bottom, #8b5022, #663b19 );
     } }
 /* end small screen */
 
