@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Madison McGee">
+    <meta name="description"
+        content="Rescuing and rehoming reptiles while educating people on compassionate, responsible reptile care.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Rex's Home:Home</title>
+</head>
+<!--Start the header-->
+
+<header> <img src="images/Rex.logo-02.png" alt="Rex's Home logo" width="49" height="50" class="logo">
+    <span>Rex's Home</span>
+
+</header>
+<!--Start the Navagation-->
+<nav>
+
+    <ul>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="about.html">About Us </a></li>
+        <li><a href="adopt.html">Adopt </a></li>
+        <li class="current"><a href="apply.html">Apply to Adopt</a></li>
+        <li><a href="events.html">Events </a></li>
+        <li><a href="adoptiondeck.html">Adoption Showcase</a></li>
+    </ul>
+
+</nav>
+<!--Start the Main content-->
+<main>
+    <h1>Adopt-a-Dino</h1>
+    <form method="get" class="form" action="thanks.html">
+        <fieldset>
+            <legend>Applicant Information</legend>
+            <label> First Name* <input type="text" name="fname" required></label>
+            <label> Last Name* <input type="text" name="lname" required></label>
+            <label>Email Address* <input type="email" name="email" required placeholder="rexshome@gmail.com"></label>
+            <label>Cell Number <input type="tel" name="phone" placeholder="123-333-1234"></label>
+            <label> Preferred contact method:
+                <select name="name">
+                    <option value="none">Please Select</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                    <option value="text">Text</option>
+
+                </select>
+            </label>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Experience Level</legend>
+            <label>
+                <input type="radio" name="method" value="Never">I have never owned a reptile before</label>
+            <label>
+                <input type="radio" name="method" value="past"> I have owned a reptile in the past</label>
+            <label>
+                <input type="radio" name="method" value="current"> I currently own one or more reptiles</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>I understand and agree that:</legend>
+            <label> <input type="checkbox" name="care" value="chosen" required> Reptiles require specialized
+                care*</label>
+            <label><input type="checkbox" name="commitment" value="chosen" required> I am prepared for a long-term
+                commitment*</label>
+            <label><input type="checkbox" name="forever" value="chosen" required> I will not rehome or sell this
+                reptile*</label>
+            <label><input type="checkbox" name="return" value="chosen" required> I will return the reptile to Rexs Home
+                if I cannot care for it*</label>
+
+            <label> Which reptile are you interested in?
+                <select name="name">
+                    <option value="none">Please Select</option>
+                    <option value="Bearded Dragon">Aztec</option>
+                    <option value="Orange Bearded Dragon">Creamsicle</option>
+                    <option value="Green Tree Frog">Jimmy</option>
+                    <option value="Box Turtle">Olive</option>
+                    <option value="Leopard Gecko">Sushi</option>
+                    <option value="Veiled Chameleon">Pie</option>
+                    <option value="Baby Milk Snake">Milky</option>
+                    <option value="Baby hognose snake">Hogrid</option>
+
+                </select>
+            </label>
+        </fieldset>
+        <label>Tell us anything else that will help us understand the home you'll provide.
+            <textarea name="comments"></textarea>
+        </label>
+        <input type="submit" value="Apply">
+    </form>
+
+
+
+
+</main>
+
+
+<!--Start the footer-->
+<footer>
+
+    <p>&copy; 2026 &bull; Madison McGee &bull; Web Design</p>
+
+</footer>
+
+</html>
