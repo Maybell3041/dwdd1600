@@ -22,6 +22,10 @@ header span {
     font-weight: 800;
 
 }
+.logo {
+    float: left;
+    margin: 0 12px 0 0;
+}
 /* small screen navigation */
 @media only screen and (max-width:800px) {
     nav ul {
@@ -43,7 +47,7 @@ header span {
     nav .current a{
         background-color: #2f5106;
         color: #f6c915;
-        background-image: linear-gradient(to bottom, #2f5106, #f6c915 );
+        background-image: linear-gradient(to bottom, #2f5106, #385c5c);
     } }
 /* end small screen */
 
@@ -75,6 +79,7 @@ nav a {
 nav li.current a {
     background-color: #2f5106;
     color: #f6c915;
+    background-image: linear-gradient(to bottom, #2f5106, #385c5c);
 }
 
 nav li a:hover {
@@ -318,6 +323,7 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 .hero {
     width:100%;
     height: auto;
+    
 }
 
 
